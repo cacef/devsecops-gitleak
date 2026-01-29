@@ -6,4 +6,7 @@ const config = {
   githubToken: "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 };
 
+// gitleaks:allow
+const exampleKey = "AKIAIOSFODNN7EXAMPLE";
+
 module.exports = config;

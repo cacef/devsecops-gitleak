@@ -1,0 +1,25 @@
+[extend]
+# Hériter des règles par défaut
+useDefault = true
+
+# Exclure des fichiers
+[allowlist]
+paths = [
+  '''test/.*''',
+  '''\.example$''',
+  '''package-lock\.json'''
+]
+
+# Exclure des secrets spécifiques (faux positifs)
+[[rules]]
+id = "internal-api-key"
+description = "Internal test API key"
+regex = '''INTERNAL_TEST_KEY_[A-Z0-9]{10}'''
+allowlist = { regexes = ['''INTERNAL_TEST_KEY_DEMO12345'''] }
+
+# Ajouter une règle custom
+[[rules]]
+id = "custom-token"
+description = "Custom internal token format"
+regex = '''ENI_TOKEN_[a-zA-Z0-9]{32}'''
+entropy = 3.5

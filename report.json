@@ -1,0 +1,42 @@
+[
+ {
+  "Description": "AWS",
+  "StartLine": 3,
+  "EndLine": 3,
+  "StartColumn": 13,
+  "EndColumn": 32,
+  "Match": "AKIAIOSFODNN7EXAMPLE",
+  "Secret": "AKIAIOSFODNN7EXAMPLE",
+  "File": "config.js",
+  "SymlinkFile": "",
+  "Commit": "9a11a95720df0d4b79599d6825b1971effb45c8d",
+  "Entropy": 3.6841838,
+  "Author": "cam",
+  "Email": "camille.andreotta2025@campus-eni.fr",
+  "Date": "2026-01-29T08:41:10Z",
+  "Message": "Add config",
+  "Tags": [],
+  "RuleID": "aws-access-token",
+  "Fingerprint": "9a11a95720df0d4b79599d6825b1971effb45c8d:config.js:aws-access-token:3"
+ },
+ {
+  "Description": "GitHub Personal Access Token",
+  "StartLine": 6,
+  "EndLine": 6,
+  "StartColumn": 18,
+  "EndColumn": 57,
+  "Match": "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "Secret": "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "File": "config.js",
+  "SymlinkFile": "",
+  "Commit": "9a11a95720df0d4b79599d6825b1971effb45c8d",
+  "Entropy": 0.6689956,
+  "Author": "cam",
+  "Email": "camille.andreotta2025@campus-eni.fr",
+  "Date": "2026-01-29T08:41:10Z",
+  "Message": "Add config",
+  "Tags": [],
+  "RuleID": "github-pat",
+  "Fingerprint": "9a11a95720df0d4b79599d6825b1971effb45c8d:config.js:github-pat:6"
+ }
+]
